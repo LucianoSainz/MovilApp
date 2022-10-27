@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+    background: #000;
+    height: auto;
+  }
+  main {
+    max-width: 900px;
+    margin: auto;
+    background: #111414;
+  }
+  
+  .landing-image {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .landing-content {
+    padding-top: 300px;
+    color: #fff;
+  }
+  .content-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .btn {
+    margin-right: 3px;
+    background: #fff;
+    color: #000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .title-one {
+    text-align: center;
+  }
+  .paragraph-one {
+    text-align: center;
+  }
+  .fa-apple {
+    font-size: 40px;
+    padding-right: 12px;
+  }
+  .fa-google-play {
+    font-size: 35px;
+    padding-right: 12px;
+  }
+  
+  .content-img {
+    background: #122121;
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .movil1-text {
+    background: #1b3333;
+    height: 100px;
+  }
+  .movil2-text {
+    background: #1b3333;
+    height: 100px;
+  }
+  .paragraph-three {
+    font-size: 20px;
+    color: chartreuse;
+  }
+  hr {
+    border-color: #fff;
+    width: 50px;
+  }
+  .title-faq {
+    color: #fff;
+  }
+  .content-faq-one {
+    background: #122121;
+    border-radius: 20px;
+    color: #fff;
+  }
+  span {
+    color: chartreuse;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .landing-content {
+      padding-top: 5px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .landing-content {
+      padding-top: 5px;
+    }
+  }
+  
